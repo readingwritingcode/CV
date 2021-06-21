@@ -1,69 +1,77 @@
-
+/*header*/
 header {
     text-align: center;
     background: aliceblue;
     background-image: url("../img/índice.jpeg");
     background-repeat:repeat-x;
 }
-
+/*main*/
 main {
     margin: 80px;
 }
+
+/*title*/
 h1 {
     /*background-color:orange;*/
     color: cornsilk;
 
     }
 
-    h2 {
+/*subtitle*/
+h2 {
         background-color:steelblue;
         color: cornsilk;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    li {
+/*elements*/
+li {
 
         font-family: fantasy;
 
     }
 
-    .sobre-mi {
+/*hpv*/
+.sobre-mi {
         color: white;
     }
 
-
-    footer {
+/*footer*/
+footer {
         background-color:steelblue;
         text-align: center;
         height: 190px;
     }
-
-    small {
+/*content footer*/
+small {
         color: white;
         font-size: 14px;
     }
 
-   button {
+/*container*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+   
+  }
+
+/*button inside container*/
+button {
         background-color: yellow;
         height: 40px;
         border-radius: 5px;
    }
-
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50px;
-       
-      }
-
-      footer {
+/*footer*/
+footer {
         background-color:steelblue;
         text-align: center;
         height: 190px;
     }
-    i {
+/*icon inside footer*/
+i {
         font-size: 40px; 
         margin-top: 10px;
     }
